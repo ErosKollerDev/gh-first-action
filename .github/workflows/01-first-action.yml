@@ -5,6 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
-        run: echo "First Step Action!"
+        run: | 
+          echo "First Step run 01 Action!"
+          echo "First Step run 02 Action!"
+          echo "First Step run 03 Action!"
+          echo "First Step run 04 Action!"
       - name: Print last
         run: echo "Done - bye Dude!"
